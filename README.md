@@ -60,10 +60,10 @@ Key final outputs for downstream analysis:
 | File Path | Description |
 |-----------|-------------|
 | `02Cleandata/reads_analysis/All_species.tsv` | Combined species-level abundance (Kraken2/Bracken) |
-| `02Cleandata/reads_analysis/motu/Abundance_merge.tsv` | Merged mOTUs abundance table |
+| `02Cleandata/reads_analysis/motu/` | Merged mOTUs abundance table |
 | `02Cleandata/reads_analysis/Singlem.genus_by_sample.tsv` | SingleM genus-level abundance |
 | `04ORF/Annotation/KEGG/Allsample_KEGG_abundance.tsv` | Combined KO abundance + TPM |
 | `05MAG/MAG_data/MAG_95/dereplicated_genomes/` | Dereplicated high/medium quality MAGs |
-| `05MAG/MAG_data/classify_wf_SGB/gtdbtk.bac120.summary.tsv` | GTDB-Tk classification results |
+| `05MAG/MAG_data/classify_wf_SGB/` | GTDB-Tk classification results |
 | `05MAG/MAG_data/Annotation/metacerberus/` | Multi-database functional annotations of MAGs |
 | `05MAG/MAG_data/Metabolic_re/` | MAG metabolic pathway prediction results (METABOLIC-G) |
