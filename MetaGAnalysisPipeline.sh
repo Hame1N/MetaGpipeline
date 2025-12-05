@@ -397,7 +397,7 @@ done
 \ls Raw_result/*tsv | head -n 1 | xargs awk -F"\t" 'NR>2{print $2}'  > Tax
 
 # Merge all samples into single abundance table
-paste NAME process/* Tax > Abundance_merge.tsv
+paste NAME process/* Tax > Motu_Abundance_merge.tsv
 
 ###########################################################
 # Step 12: Taxonomic Profiling with SingleM
@@ -579,7 +579,7 @@ done
 \ls Raw_result/*tsv | head -n 1 | xargs awk -F"\t" '{print $1}' OFS="\t" > NAME
 
 # Merge all samples into single coverage table
-paste NAME process/* > Abundance_merge.tsv
+paste NAME process/* > MAG_Abundance_merge.tsv
 
 ###########################################################
 # Step 17: MAG Functional Annotation with KOFAMscan
