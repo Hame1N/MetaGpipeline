@@ -1,8 +1,8 @@
 # MetaGpipeline
 # Metagenomics Analysis Pipeline
 A comprehensive end-to-end bioinformatics pipeline for metagenomic data analysis, including quality control, assembly, binning, taxonomic profiling, functional annotation, and MAG (Metagenome-Assembled Genomes) characterization.
-
-
+Below is the schematic diagram of the metagenomics analysis pipeline:
+![Metagenomics Analysis Pipeline](Roadmap.png)
 
 ## Table of Contents
 - [Pipeline Overview](#pipeline-overview)
