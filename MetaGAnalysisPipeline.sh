@@ -649,11 +649,11 @@ gtdbtk classify_wf --genome_dir MAG_95/dereplicated_genomes/  \
 
 # Infer phylogenetic trees for Archaea and Bacteria
 gtdbtk infer --prefix arc  --gamma  \
-    --msa_file classify_wf_SGB/align/gtdbtk.ar53.user_msa.fasta   \
+    --msa_file classify_wf_SGB/align/gtdbtk.ar53.user_msa.fasta.gz   \
     --out_dir classify_wf_SGB/infer --cpu 30
 
 gtdbtk infer --prefix bac  --gamma  \
-    --msa_file classify_wf_SGB/align/gtdbtk.bac120.user_msa.fasta   \
+    --msa_file classify_wf_SGB/align/gtdbtk.bac120.user_msa.fasta.gz   \
     --out_dir classify_wf_SGB/infer --cpu 30
 
 ###########################################################
